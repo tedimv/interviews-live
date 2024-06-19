@@ -11,9 +11,9 @@ export const Table = {
   users: "users",
 } as const;
 
-// app.use(oakCors({
-//   origin: "*"
-// }));
+app.use(oakCors({
+  origin: "*"
+}));
 
 router.delete("/admin/users/:id/really", async (ctx) => {
   await db.delete([Table.users, ctx.params.id]);
