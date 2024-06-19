@@ -1,0 +1,12 @@
+{
+  "tasks": {
+    "dev": "deno run --watch --allow-net --unstable-kv main.ts"
+  },
+  "imports": {
+    "@faker-js/faker": "npm:@faker-js/faker@^8.4.1",
+    "@types/uuid": "npm:@types/uuid@^9.0.8",
+    "lodash": "npm:lodash@^4.17.21",
+    "moment": "npm:moment@^2.30.1",
+    "uuid": "npm:uuid@^9.0.1"
+  }
+}
