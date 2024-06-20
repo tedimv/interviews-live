@@ -12,7 +12,7 @@ export const Table = {
 } as const;
 
 app.use(oakCors({
-  origin: "*"
+  origin: "*",
 }));
 
 router.delete("/admin/users/:id/really", async (ctx) => {
@@ -27,40 +27,19 @@ router.post("/admin/users/create/really", async (ctx) => {
     id,
     firstName: faker.person.firstName(),
     lastName: faker.person.lastName(),
-    age: 23
+    age: 23,
   };
 
   await db.set([Table.users, id], newUser);
   ctx.response.body = newUser;
 });
 
-router.get("/asset/crypto", async (ctx) => {
-  const assetPrice = await import("./asset_crypto.json", {
+router.get('/assets', async (ctx) => {
+  const assets = await import("./assets.json", {
     with: { type: "json" },
   });
-  ctx.response.body = assetPrice.default;
-});
-
-router.get("/asset/properties", async (ctx) => {
-  const assetPrice = await import("./asset_properties.json", {
-    with: { type: "json" },
-  });
-  ctx.response.body = assetPrice.default;
-});
-
-router.get("/asset/rare_metals", async (ctx) => {
-  const assetPrice = await import("./asset_rare_metals.json", {
-    with: { type: "json" },
-  });
-  ctx.response.body = assetPrice.default;
-});
-
-router.get("/asset/stocks", async (ctx) => {
-  const assetPrice = await import("./asset_stocks.json", {
-    with: { type: "json" },
-  });
-  ctx.response.body = assetPrice.default;
-});
+  ctx.response.body = assets;
+})
 
 router.get("/users/:id", async (ctx) => {
   const id = ctx.params.id;

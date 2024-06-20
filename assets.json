@@ -1,0 +1,354 @@
+[
+  {
+    "name": "Bitcoin",
+    "assetType": "crypto",
+    "type": "buy",
+    "amount": 2,
+    "date": "2023-01-15",
+    "pricePerUnit": 32000
+  },
+  {
+    "name": "Bitcoin",
+    "assetType": "crypto",
+    "type": "sell",
+    "amount": 1,
+    "date": "2023-03-20",
+    "pricePerUnit": 34000
+  },
+  {
+    "name": "Bitcoin",
+    "assetType": "crypto",
+    "type": "buy",
+    "amount": 1.5,
+    "date": "2023-05-10",
+    "pricePerUnit": 30000
+  },
+  {
+    "name": "Ethereum",
+    "assetType": "crypto",
+    "type": "buy",
+    "amount": 10,
+    "date": "2023-02-25",
+    "pricePerUnit": 2400
+  },
+  {
+    "name": "Ethereum",
+    "assetType": "crypto",
+    "type": "sell",
+    "amount": 5,
+    "date": "2023-04-15",
+    "pricePerUnit": 2600
+  },
+  {
+    "name": "Ethereum",
+    "assetType": "crypto",
+    "type": "buy",
+    "amount": 3,
+    "date": "2023-06-01",
+    "pricePerUnit": 2300
+  },
+  {
+    "name": "Ripple",
+    "assetType": "crypto",
+    "type": "buy",
+    "amount": 1000,
+    "date": "2023-01-10",
+    "pricePerUnit": 0.85
+  },
+  {
+    "name": "Ripple",
+    "assetType": "crypto",
+    "type": "sell",
+    "amount": 500,
+    "date": "2023-03-30",
+    "pricePerUnit": 0.9
+  },
+  {
+    "name": "Ripple",
+    "assetType": "crypto",
+    "type": "buy",
+    "amount": 200,
+    "date": "2023-05-20",
+    "pricePerUnit": 0.8
+  },
+  {
+    "name": "Litecoin",
+    "assetType": "crypto",
+    "type": "buy",
+    "amount": 50,
+    "date": "2023-02-01",
+    "pricePerUnit": 140
+  },
+  {
+    "name": "Litecoin",
+    "assetType": "crypto",
+    "type": "sell",
+    "amount": 20,
+    "date": "2023-04-10",
+    "pricePerUnit": 150
+  },
+  {
+    "name": "Litecoin",
+    "assetType": "crypto",
+    "type": "buy",
+    "amount": 30,
+    "date": "2023-06-05",
+    "pricePerUnit": 130
+  },
+  {
+    "name": "Residential Property A",
+    "assetType": "property",
+    "type": "buy",
+    "amount": 1,
+    "date": "2022-03-15",
+    "pricePerUnit": 500000
+  },
+  {
+    "name": "Residential Property A",
+    "assetType": "property",
+    "type": "sell",
+    "amount": 1,
+    "date": "2023-05-20",
+    "pricePerUnit": 550000
+  },
+  {
+    "name": "Commercial Property B",
+    "assetType": "property",
+    "type": "buy",
+    "amount": 1,
+    "date": "2022-06-10",
+    "pricePerUnit": 800000
+  },
+  {
+    "name": "Commercial Property B",
+    "assetType": "property",
+    "type": "buy",
+    "amount": 1,
+    "date": "2023-01-25",
+    "pricePerUnit": 820000
+  },
+  {
+    "name": "Industrial Property C",
+    "assetType": "property",
+    "type": "buy",
+    "amount": 2,
+    "date": "2022-11-05",
+    "pricePerUnit": 600000
+  },
+  {
+    "name": "Industrial Property C",
+    "assetType": "property",
+    "type": "sell",
+    "amount": 1,
+    "date": "2023-03-30",
+    "pricePerUnit": 650000
+  },
+  {
+    "name": "Vacant Land D",
+    "assetType": "property",
+    "type": "buy",
+    "amount": 5,
+    "date": "2023-02-15",
+    "pricePerUnit": 100000
+  },
+  {
+    "name": "Vacant Land D",
+    "assetType": "property",
+    "type": "buy",
+    "amount": 3,
+    "date": "2023-04-25",
+    "pricePerUnit": 110000
+  },
+  {
+    "name": "Gold",
+    "assetType": "rare_metal",
+    "type": "buy",
+    "amount": 50,
+    "date": "2022-01-10",
+    "pricePerUnit": 1800
+  },
+  {
+    "name": "Gold",
+    "assetType": "rare_metal",
+    "type": "sell",
+    "amount": 20,
+    "date": "2023-02-20",
+    "pricePerUnit": 1850
+  },
+  {
+    "name": "Gold",
+    "assetType": "rare_metal",
+    "type": "buy",
+    "amount": 10,
+    "date": "2023-05-15",
+    "pricePerUnit": 1750
+  },
+  {
+    "name": "Silver",
+    "assetType": "rare_metal",
+    "type": "buy",
+    "amount": 100,
+    "date": "2022-04-25",
+    "pricePerUnit": 25
+  },
+  {
+    "name": "Silver",
+    "assetType": "rare_metal",
+    "type": "sell",
+    "amount": 40,
+    "date": "2023-01-30",
+    "pricePerUnit": 26
+  },
+  {
+    "name": "Silver",
+    "assetType": "rare_metal",
+    "type": "buy",
+    "amount": 20,
+    "date": "2023-06-05",
+    "pricePerUnit": 24
+  },
+  {
+    "name": "Platinum",
+    "assetType": "rare_metal",
+    "type": "buy",
+    "amount": 30,
+    "date": "2022-07-15",
+    "pricePerUnit": 900
+  },
+  {
+    "name": "Platinum",
+    "assetType": "rare_metal",
+    "type": "sell",
+    "amount": 10,
+    "date": "2023-03-25",
+    "pricePerUnit": 950
+  },
+  {
+    "name": "Platinum",
+    "assetType": "rare_metal",
+    "type": "buy",
+    "amount": 5,
+    "date": "2023-05-20",
+    "pricePerUnit": 920
+  },
+  {
+    "name": "Palladium",
+    "assetType": "rare_metal",
+    "type": "buy",
+    "amount": 20,
+    "date": "2022-10-05",
+    "pricePerUnit": 2200
+  },
+  {
+    "name": "Palladium",
+    "assetType": "rare_metal",
+    "type": "sell",
+    "amount": 5,
+    "date": "2023-02-10",
+    "pricePerUnit": 2300
+  },
+  {
+    "name": "Palladium",
+    "assetType": "rare_metal",
+    "type": "buy",
+    "amount": 3,
+    "date": "2023-04-15",
+    "pricePerUnit": 2100
+  },
+  {
+    "name": "Apple Inc.",
+    "assetType": "stock",
+    "type": "buy",
+    "amount": 100,
+    "date": "2022-08-10",
+    "pricePerUnit": 150
+  },
+  {
+    "name": "Apple Inc.",
+    "assetType": "stock",
+    "type": "sell",
+    "amount": 40,
+    "date": "2023-01-20",
+    "pricePerUnit": 160
+  },
+  {
+    "name": "Apple Inc.",
+    "assetType": "stock",
+    "type": "buy",
+    "amount": 20,
+    "date": "2023-05-05",
+    "pricePerUnit": 155
+  },
+  {
+    "name": "Tesla Inc.",
+    "assetType": "stock",
+    "type": "buy",
+    "amount": 50,
+    "date": "2022-03-15",
+    "pricePerUnit": 700
+  },
+  {
+    "name": "Tesla Inc.",
+    "assetType": "stock",
+    "type": "sell",
+    "amount": 20,
+    "date": "2023-02-10",
+    "pricePerUnit": 720
+  },
+  {
+    "name": "Tesla Inc.",
+    "assetType": "stock",
+    "type": "buy",
+    "amount": 10,
+    "date": "2023-06-01",
+    "pricePerUnit": 690
+  },
+  {
+    "name": "Amazon.com Inc.",
+    "assetType": "stock",
+    "type": "buy",
+    "amount": 30,
+    "date": "2022-06-20",
+    "pricePerUnit": 3300
+  },
+  {
+    "name": "Amazon.com Inc.",
+    "assetType": "stock",
+    "type": "sell",
+    "amount": 10,
+    "date": "2023-03-30",
+    "pricePerUnit": 3400
+  },
+  {
+    "name": "Amazon.com Inc.",
+    "assetType": "stock",
+    "type": "buy",
+    "amount": 5,
+    "date": "2023-05-25",
+    "pricePerUnit": 3250
+  },
+  {
+    "name": "Microsoft Corp.",
+    "assetType": "stock",
+    "type": "buy",
+    "amount": 60,
+    "date": "2022-11-05",
+    "pricePerUnit": 290
+  },
+  {
+    "name": "Microsoft Corp.",
+    "assetType": "stock",
+    "type": "sell",
+    "amount": 30,
+    "date": "2023-04-10",
+    "pricePerUnit": 300
+  },
+  {
+    "name": "Microsoft Corp.",
+    "assetType": "stock",
+    "type": "buy",
+    "amount": 15,
+    "date": "2023-06-15",
+    "pricePerUnit": 280
+  }
+]
