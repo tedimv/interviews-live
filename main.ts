@@ -38,7 +38,14 @@ router.get('/assets', async (ctx) => {
   const assets = await import("./assets.json", {
     with: { type: "json" },
   });
-  ctx.response.body = assets;
+
+  const result = {
+    items: assets.default,
+    page: 1,
+    totalCount: 50
+  }
+  
+  ctx.response.body = result;
 })
 
 router.get("/users/:id", async (ctx) => {
